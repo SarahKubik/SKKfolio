@@ -14,7 +14,7 @@ function Header() {
             </div>
             <div className='mobile-menu'>
             <div onCLick={() => setIsOpen(!isOpen)}>
-            <i class="fi fi-rr-apps"></i>
+            <i class="fi fi-rr-apps nenu icon"></i>
             </div>
             {isOpen && <Mobile isOpen={isOpen} setIsOpen={setIsOpen}/>}
             </div>
