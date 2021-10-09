@@ -2,7 +2,7 @@
     display: flex;
     justify-content: space-between;
     flex: 1;
-    padding: 12px;
+    padding: 10px;
     position: relative;
     align-items: center;
 }
@@ -27,9 +27,9 @@
 
 .logo{
     display: flex;
-    font-size: 36px;
+    font-size: 30px;
     color: blueviolet;
-    font-weight: 800;
+    font-weight: 600;
 
 }
 
@@ -41,6 +41,6 @@
         display: none;
     }
     .logo{
-        font-size: 24px;
+        font-size: 25px;
     }
 }
