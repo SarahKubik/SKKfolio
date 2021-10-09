@@ -1,12 +1,13 @@
 import React from "react";
 import "./mobile.css";
 
-function Mobile({ isOpen, setisOpen }) {
+function Mobile({ isOpen, setIsOpen }) {
   return (
     <div className="mobile">
-      <div className="close-icon" onClick={() => setisOpen(!isOpen)}>
+      <div className="close-icon" onClick={() => setIsOpen(!isOpen)}>
         <i class="fi fi-sr-cross-circle"></i>
       </div>
+      {/* "mobile-options" is parent container */}
       <div className="mobile-options">
         <div className="mobile-option">
           <a href="#project">
